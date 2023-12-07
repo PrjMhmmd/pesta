@@ -13,7 +13,7 @@ function Content(){
         </div>
 
         <div className='class-detail'>
-            <div className='class-header'>Assignment Detail</div>
+            <div className='class-header'><Link to='/student' style={{ textDecoration:'none' }}>Assignment Detail</Link></div>
             <div className='class-list'>
                 <div className='class-item'>
                     <Link to="/student/assignment/view" style={{ textDecoration: 'none', color:'black'}}>

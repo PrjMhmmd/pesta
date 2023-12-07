@@ -12,7 +12,7 @@ function Content(){
     return(
     <div className='content-container'>
         <div className='title-class'>
-            <h1 className='pageAssignment-title' style={{ color:'#058ED9' }}>Mathematics</h1>
+            <h1 className='pageAssignment-title' style={{ color:'#058ED9' }}><Link to='/' style={{ textDecoration:'none' }}>Mathematics</Link></h1>
             <button className='button-discussion' onClick={togglePopup}>+ Create</button>
             {isPopupVisible && (
                 <div className="popup">

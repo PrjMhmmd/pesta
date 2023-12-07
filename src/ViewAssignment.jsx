@@ -10,7 +10,7 @@ function Content(){
             <div className='content-container'>
                 <div className='view-content'>
                     <div className='title-class'>
-                        <h1 style={{ color:'#058ED9' }}>Project UTS Math</h1>
+                        <h1 style={{ color:'#058ED9' }}><Link to='/' style={{ textDecoration:'none' }}>Project UTS Math</Link></h1>
                     </div>
 
                     <div className='view-description'>
